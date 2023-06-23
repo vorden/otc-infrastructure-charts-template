@@ -29,6 +29,12 @@ website: |-
           <a href="my-service/" class="tile">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kotlin_Icon_2021.svg/2048px-Kotlin_Icon_2021.svg.png" alt="My Service">
           </a>
+          <a href="elasticsearch/" class="tile">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Elasticsearch_logo.svg/1024px-Elasticsearch_logo.svg.png" alt="Elasticsearch">
+          </a>
+          <a href="kibana/" class="tile">
+              <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/elasticco_kibana_logo_icon_169209.png" alt="Kibana">
+          </a>
       </div>
   </div>
   </body>
