@@ -32,7 +32,7 @@ charts:
     targetRevision: 10.22.0-internal-svc
     # Overrides default Helm Parameters
     parameters:
-      "traefik.deployment.replicas": "1"
+      "traefik.deployment.replicas": "2"
       "traefik.service.annotations.kubernetes\\.io\\/elb\\.id": "{{.Values.projectValues.traefikElbId}}"
 
   cert-manager:
