@@ -80,3 +80,7 @@ charts:
   elastic-stack:
     namespace: monitoring
     targetRevision: "7.17.3-route-bugfix"
+
+  prometheus-stack:
+    namespace: prometheus
+    targetRevision: "43.1.3-storage-bugfix"
