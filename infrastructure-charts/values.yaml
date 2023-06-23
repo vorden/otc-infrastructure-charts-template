@@ -84,3 +84,9 @@ charts:
   prometheus-stack:
     namespace: prometheus
     targetRevision: "43.1.3-storage-bugfix"
+    ingressRoute:
+      adminDomain:
+    syncOptions:
+      - ServerSideApply = true
+    valueFile: "value-files/prometheus/values.yaml"
+

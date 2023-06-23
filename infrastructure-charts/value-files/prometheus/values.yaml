@@ -1,0 +1,11 @@
+prometheusStack:
+  prometheus:
+    prometheusSpec:
+      externalUrl: https://admin.{{.Values.projectValues.rootDomain}}/prometheus
+      serviceMonitorSelectorNilUsesHelmValues: false
+      podMonitorSelectorNilUsesHelmValues: false
+      podMonitorSelector: null
+  grafana:
+    grafana.ini:
+      server:
+        root_url: https://admin.{{.Values.projectValues.rootDomain}}/grafana
